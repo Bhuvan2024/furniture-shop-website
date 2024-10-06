@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQS PAGE</title>
+    <style>
+        .navbar {
+    
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    
+  
+    
+}
+
+.navbar-left.dropdown a{
+    color: black;
+}
+.navbar-left a{
+    color: black;
+}
+.navbar-right a{
+    color: black;
+}
+
+
+
+
+
+.dropdown a{
+    font-weight: bold;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color:white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    min-width: 200px;
+}
+.dropdown-content a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.dropdown-content a:hover {
+    background-color: #c4cba3;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+.navbar-left {
+    position: sticky;
+    text-decoration: none;
+    
+    
+    margin: 5px;
+    display: flex;
+    font-size: smaller;
+    
+}
+.dropdown-content {
+    display: none;
+}
+.logo {
+    height: 50px;
+    width: 100px;
+}
+h4{ margin-top: 15px;
+    margin: 15px;
+    
+}
+a{
+    text-decoration: none;
+}
+.navbar h4:hover{
+    background-color: gold;
+
+    
+    
+}
+
+          
+.navbar-right {
+    position: sticky;
+    text-decoration: none;
+    
+    
+    margin: 5px;
+    display: flex;
+    font-size: smaller;
+    
+}
+.navbar-left .dropdown a{
+    color: black;
+}
+
+
+
+.navbar-right {
+    position: fixed;
+    right: 0px;
+    display: flex;
+    justify-content: end;
+    white-space: 20px;
+    margin: 5px;
+}
+.zero {
+    height: 25px;
+    width: 25px;
+    border: 2px solid gold;
+    border-radius: 100%;
+    background-color: gold;
+    line-height: 25px;
+    text-align: center;
+}
+
+         .container{
+            display: flex;
+            position: fixed;
+            top: 0;
+            background-color: white;
+            z-index: 1000;
+            width: 100%;
+            justify-content:space-between;
+            flex-direction: row;
+         }
+         .left ul,li,a{
+            display: inline-block;
+            padding: 5px;
+            text-decoration: none;
+            color: black;
+            
+         }
+
+         .main{
+            display: flex;
+         }
+         .fl{
+            margin: 10px 100px;
+            width: 600px;
+         }
+         .footer{
+            width: 350px;
+            float: left;
+            
+        }.footer pre{
+            font-size: 15px;
+        }
+        footer{
+            display: flex;
+            /* display: grid;
+            grid-template-columns: repeat(4,1fr); */
+
+        }
+        .same{
+            width: 500px;
+        }
+        /* footer{
+            display: flex;
+            justify-content: end;
+        } */
+        /* .para{
+            float: left;
+            width: 200px;
+        } */
+        .same1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            height: fit-content;
+            gap: 5px;
+        }
+        .last{
+            height: fit-content;
+            width: 350px;
+        }
+        @media screen and (min-width:0px)and (max-width:900px) {
+            .cont{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+
+                <div class="navbar-left">
+                    <div><a href="./home.html"> <img src="./IMAGES/logo.png" alt="logo" class="logo"></a></div>
+                    <div class="dropdown"><a href="#"><h4>SHOP<span >&#x25BC;</span></h4></a> 
+                        <div class="dropdown-content">
+                            <a href="./products.html">furniture</a>
+                            <a href="./products.html">bedding</a>
+                            <a href="./products.html">lighting</a>
+                            <a href="./products.html">pillow ans decor</a>
+                            <a href="./products.html">wall art and mirror</a>
+                            <a href="./products.html">table top</a>
+                            <a href="./products.html"> glassware</a>
+                        </div>
+                    </div>
+                    <div><a href="./design_ideas.html"><h4>DESIGN IDEAS</h4></a></div>
+                    <div><a href="./stories.html"><h4>STORIES</h4></a></div>
+                    <div><a href="./faqs.html"><h4>FAQS</h4></a></div>
+                    <div><a href="./contact.html"><h4>CONTACT US</h4></a></div>
+                    
+                </div>
+                
+
+                <div class="navbar-right">
+                    <div><a href="#"><h4>SEARCH</h4></a></div>
+                    <div><a href="#"><h4>SIGN IN</h4></a></div>
+                    <div><a href="#"><h4><img src="./IMAGES/cart.png" alt="basket"></h4></a></div>
+                    <div ><a href="#"><h4 class="zero">0</h4></a></div>
+
+                </div>
+
+                
+            </div>
+       
+        </nav>
+
+    </header>
+    <div>
+        <img style="margin-top: 100px;" src="./IMAGES/birds-eye-1500w.jpg" alt="birds-eye-1500w" width="1400px">
+        <h1 style="text-align: center;">How does kimmi works</h1>
+        <div class="main">
+            <div class="fl">
+                <h4>Ke mana saja kimi dapat mengantar pesanan?</h4>
+                <p>Untuk fase pertama ini, kimi hanya dapat melayani pick up dan drop off di area Jakarta saja. Kimi berencana untuk berekspansi dan bersiap-siaplah untuk area yang akan kimi pilih setelah Jakarta.</p>
+
+            </div>
+            <div class="fl">
+                <h4>Apakah kimi melayani pemesanan yang jumlahnya sangat banyak (lebih dari 150 box)?</h4>
+                <p>Kimi menyesuaikan dengan kapasitas para Chef. Chef dapat merevisi tanggal dan jam yang dipesan untuk menyesuaikan kapasitas seperti mempersiapkan bahan, alat, dan tenaga kerja yang mereka butuhkan untuk mengerjakan order yang dipesan. Jika Anda ingin memesan dengan jumlah yang sangat banyak, pastikan Anda memesannya jauh sebelum hari H (min. H-5).</p>
+            </div>
+
+        </div>
+        <h1 style="text-align: center;">Pricing</h1>
+        <div class="main">
+            <div class="fl">
+                <h4>Apakah harga yang dicantumkan pada setiap produk sudah termasuk biaya pengiriman?</h4>
+                <p>Belum. Sistem kimi akan menyesuaikan biaya pengiriman dari jarak dari dapur Chef yang dipilih dengan lokasi tujuan yang Anda pilih, yang ditambahkan dengan total harga produk yang Anda pesan.</p>
+            </div>
+            <div>
+                <div class="fl">
+                    <h4>Berapa biaya pengiriman setiap memesan di kimi?</h4>
+                    <p>Sistem kimi akan menyesuaikan biaya pengiriman dari jarak dari dapur Chef yang dipilih dengan lokasi tujuan yang Anda pilih.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="fl">
+
+            </div>
+            <div>
+                <div class="fl">
+                    <h4>Bagaimana biaya pengiriman jika saya memesan dari 2 Chef berbeda?</h4>
+                    <p>Sistem kami akan tetap menghitung 2 transaksi berbeda dengan 2 biaya pengiriman yang berbeda.</p>
+                </div>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Ordering</h1>
+        <div class="main">
+            <div class="fl">
+                <h4>Apa yang dimaksud dengan Minimum Order?</h4>
+                <p>Jumlah terkecil yang ditentukan oleh masing-masing Chef yang dapat dipesan Buyer, dan tiap produk memiliki minimum order yang berbeda- beda.</p>
+                <h4>Dapatkah saya memesan untuk pengantaran di hari yang sama?</h4>
+                <p>Tidak. Pesanan yang dipesan hari ini (batas max. hingga tahap pembayaran pukul 14.00), akan diterima keesokan hari dimana paling pagi jam 09.30 dan paling malam jam 18.30. Jika melewati pukul 14.00, maka pemesanan akan diantar 2 hari berikutnya. Jika Chef merasa waktu yang Anda pesan tidak cukup untuk melakukan persiapan bahan, alat, dan tenaga kerja, Maka Chef dapat merubah Request Delivery Time pesanan Anda, dan Anda akan ternotifikasi mengenai perubahan tersebut.</p>
+                <h4>Bagaimana jika pesanan yang tiba tidak sesuai dengan yang saya pesan?</h4>
+                <p>Segera menghubungi kami di sini secepat mungkin yang Anda bisa lakukan.</p>
+                <h4>Bagaimana waktu pengantaran di kimi?</h4>
+                <p>Anda dapat memilih Request Delivery Time yaitu pukul 09.30, 11.30, 13.30, 15.30, 18.30 (WIB)</p>
+                <h4>Apakah pengantaran dapat dilakukan diluar jam yang tersedia?</h4>
+                <p>Tidak. Karena keterbatasan kapasitas kimi, maka kami menjadwalkan pengiriman pada pukul 09.30, 11.30, 13.30, 15.30, 18.30 (WIB)</p>
+                <h4>Apa itu Pick Up Time dan Delivery Time?</h4>
+                <p>Pick Up Time adalah waktu/jam dimana Server (pengantar) tiba di lokasi dapur Chef. Delivery Time adalah waktu/jam dimana order tiba di lokasi Buyer yang telah dipesan.</p>
+                <h4>Apa itu Pick Up Time dan Delivery Time?</h4>
+                <p>Pick Up Time adalah waktu/jam dimana Server (pengantar) tiba di lokasi dapur Chef. Delivery Time adalah waktu/jam dimana order tiba di lokasi Buyer yang telah dipesan.</p>
+            </div>
+            <div>
+                <div class="fl">
+                    <h4>Dapatkah saya memesan ke lebih dari 1 Chef berbeda secara bersamaan?</h4>
+                    <p style="height:  50px;">Ya. Sistem kami akan tetap menghitung 2 atau lebih transaksi berbeda, dengan 2 atau lebih biaya pengiriman yang berbeda.</p>
+                    <h4>Dapatkah saya mengubah atau membatalkan pesanan yang telah saya pesan?</h4>
+                    <p style="height: 100px;">Ya, jika Anda status pemesanan Anda masih Open Request. Tidak, jika Anda telah melakukan pembayaran.</p>
+                    <h4>Bagaimana waktu pengantaran di kimi?</h4>
+                    <p>Anda dapat memilih Request Delivery Time yaitu pukul 09.30, 11.30, 13.30, 15.30, 18.30 (WIB)</p>
+                    <h4>Bagaimana jika pesanan yang tiba tidak sesuai dengan yang saya pesan?</h4>
+                    <p>Anda dapat menginformasikannya di Special Instruction dan Chef akan memperhatikan secara special ketika mereka mempersiapkan order Anda.</p>
+                    <h4>Dapatkah saya mengambil sendiri order yang telah saya pesan?</h4>
+                    <p>Tidak. Kimi telah komitmen dan mengatur sistem kimi untuk mengantar setiap order yang masuk melalui kimi.</p>
+                    <h4>Bagaimana jika pesanan saya tidak kunjung datang?</h4>
+                    <p>Segera menghubungi kami di sini secepat mungkin yang Anda bisa lakukan.</p>
+                    <h4>Bagaimana jika pesanan saya tidak kunjung datang?</h4>
+                    <p>Segera menghubungi kami di sini secepat mungkin yang Anda bisa lakukan.</p>
+                </div>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Payments</h1>
+        <div class="main">
+            <div class="fl">
+                <h4>Apakah kimi menerima pembayaran tunai atau COD (Cash On Delivery)?</h4>
+                <p>Tidak. Untuk saat ini kimi hanya menerima pembayaran melalui (BCA) Bank Transfer.</p>
+            </div>
+            <div>
+                <div class="fl">
+                    <h4>Apakah kimi menerima pembayaran via kartu kredit?</h4>
+                    <p>Tidak. Untuk saat ini kimi hanya menerima pembayaran melalui (BCA) Bank Transfer.</p>
+                </div>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Account management</h1>
+        <div class="main">
+            <div class="fl">
+                <h4>Bagaimana saya membuat akun Buyer di kimi?</h4>
+                <p>nda dapat membuat akun dengan mengunjungi backtokimi.com dan menggunakan email Anda untuk sign up. Anda akan memasukkan nomor handphone serta password, setelah itu Anda dapat langsung menambahkan order serta menjadwalkan pengantaran yang Anda inginkan.</p>
+            </div>
+            <div>
+                <div class="fl">
+                    <h4>Dapatkah Buyer bergabung menjadi Chef kimi juga?</h4>
+                    <p>Ya. Anda langsung menghubungi kami melalui alyssa.prabandari@backtokimi.com</p>
+                </div>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Suggestion & Feedback</h1>
+        <div class="main">
+            <div class="fl">
+                <h4>Bagaimana jika saya memiliki kritik dan saran?</h4>
+                <p>Opini Anda sangat berharga bagi kami. Jika Anda memiliki kritik dan saran silakan hubungi kami di sini. Kami akan segera mengulas secara tepat dan cepat.</p>
+            </div>
+            <div>
+                <div class="fl">
+                    <h4>Dapatkah saya merekomendasikan Chef atau Toko untuk kimi?</h4>
+                    <p>Ya. Kami selalu senang untuk menambahkan Chef dan membuat favorit Anda tersedia di kimi. Silakn hubungi kami di sini dengan Chef rekomendasi Anda dan kami akan melakukan yang terbaik yang dapat kami lakukan untuk menjadikan itu kenyataan.</p>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: rgb(241, 234, 234);margin-top: 50px;height:fit-content;width: 100%;">
+            <div><h1 style="text-align: center;margin-top: 20px;padding-top: 50px;">Top Categories</h1></div>
+                <footer>
+                    <div class="same1">
+                        <div><img src="./IMAGES/logo.png" alt="LOGO" height="40px" ></div>
+                        <div class="last">
+                            <p>Furniture.id serves the needs of the design, entertainment
+                            arts communities by providing public and private conference 
+                            meetings,special events, screenings,exhibitions and reception</p>
+                            <p>©2024 Furniture.id All rights reserved</p>
+                        </div>
+                        
+                    </div>
+                    <div class="same">
+                            
+                                <p>Dining room</p>
+                                <p>decoration</p>
+                                <p>renovation</p>
+                                <p>bedroom</p>
+                                <p>furniture</p>
+                                <p>bathroom</p>
+                                <p>lighting</p>
+    
+                            
+                    </div>
+                    <div class="same">
+                            
+                                <p>home builders</p>
+                                <p>Architect</p>
+                                <p>furniture repairs</p>
+                                <p>interior designers</p>
+                                <p>contractors</p>
+                                <p>landscape designers</p>
+                                <p>air conditioning</p>
+                            
+                    </div>
+                    <div class="same">
+                            
+                                <p>plumbers</p>
+                                <p>electricians</p>
+                                <p>Canopy services</p>
+                                <p>welders</p>
+                                <p>movers</p>
+                                <p>carpet cleaners</p>
+                                <p>glass services</p>
+                            
+                    </div>
+                </footer>
+        </div>
+</body>
+</html>
